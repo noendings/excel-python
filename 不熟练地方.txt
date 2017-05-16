@@ -1,0 +1,13 @@
+1,将字段中空格替换为空
+2,更改列名称
+3#删除city列先出现的重复值
+5,数据替换,将city列中sh替换为shanghai
+6,对在运用中,函数/方法具体是针对Series与DataFrame的区别不够清楚,对行列,还是对元素
+7,#数据表df和df1匹配合并-inner方式,并将结果赋值给df_inner
+8，#为df_inner设置索引列为id
+9，#按age列进行排序
+10，#使用where方法,新建一列group,如果price列的值>3000，group列显示high，否则显示low
+11,#使用loc方法,新建sign列,如果price列的值>4000且city列=='beijing',则标记为1
+12,#对category字段的值依次进行分列，并创建数据表，索引值为df_inner的索引列，列名称为category和size
+13,#重设索引
+14,#设置日期date为索引
